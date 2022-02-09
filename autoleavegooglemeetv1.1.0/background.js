@@ -43,7 +43,9 @@ chrome.runtime.onMessage.addListener(
 function endCall() {
     console.log("STOP THE MEET");
     try {
-	window.document.querySelector("button.QQrMi").click();
+		var end_button = document.querySelector(".VfPpkd-Bz112c-LgbsSe.yHy1rc.eT1oJ.tWDL4c.jh0Tpd.Gt6sbf.QQrMi.NKaD6");
+		// console.log(end_button);
+		end_button.click();
     } catch {
         console.log("ERROR");
     }
@@ -67,7 +69,7 @@ function timefunction() {
 function membersfunction() {
     // console.log("member fxn", obj.value);
     console.log("checking members");
-    if (window.document.querySelector(".uGOf1d").innerText < obj.value) {
+    if (document.querySelector("div.uGOf1d").innerText < obj.value) {
 	endCall();
     }
     else {
@@ -75,8 +77,8 @@ function membersfunction() {
     }
 }
 function minutesfunction() {
-    // console.log("minutes fxn", obj.value);
-    // console.log(minute, sec);
+    console.log("minutes fxn", obj.value);
+    console.log(minute, sec);
     sec--;
     if (sec == 00) {
         minute--;
