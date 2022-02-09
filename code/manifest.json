@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Google Meet Manager",
     "description": "Google Meet Manager: on time, number of members, minutes",
     "version": "1.2.0",
