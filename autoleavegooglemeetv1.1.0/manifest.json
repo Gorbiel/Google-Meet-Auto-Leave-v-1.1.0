@@ -1,17 +1,27 @@
 {
-    "manifest_version": 2,
-    "name": "Google Meet Auto Leave",
-    "description": "GoogleMeet Auto Leave: on time, number of members, minutes _abx",
-    "version": "1.1.0",
-    "author": "abx",
+    "manifest_version": 3,
+    "name": "Google Meet Manager",
+    "description": "Google Meet Manager: on time, number of members, minutes",
+    "version": "1.2.0",
+	"browser_specific_settings": {
+		"gecko": {
+		  "id": "addon@Gorbiel",
+		  "strict_min_version": "42.0"
+		}
+	},
+    "author": "Gorbiel",
     "icons": {
         "512": "images/editexiticon1.png"
     },
     "browser_action": {
         "default_icon": "images/editexiticon1.png",
         "default_popup": "index.html",
-        "default_title": "Auto Leave Google Meet"
+        "default_title": "Google Meet Manager"
     },
+	"permissions": [
+		"http://meet.google.com/*",
+		"https://meet.google.com/*"
+    ],
     "content_scripts": [
         {
             "js": [
