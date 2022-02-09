@@ -1,4 +1,4 @@
-# Google Meet Manager
+# Google Meet Manager for Firefox
 
 Google Meet Manager for Firefox: Leave Google Meet automatically
 
