@@ -1,6 +1,6 @@
-# Google Meet Manager for Firefox
+# Google Meet Manager for Chrome
 
-Google Meet Manager for Firefox: Leave Google Meet automatically
+Google Meet Manager for Chrome: Leave Google Meet automatically
 
 "AUTOMATE ONLINE CLASSES AND CHILL" 
 
@@ -17,16 +17,6 @@ Visit "https://meet.google.com/" (Any google meet) and click on the Extension bu
 3. Sit back and relax. It automatically exit Google meet.
 
 (anytime to cancel the timer/background process hit Stop Icon).
-
-# How to install
-1. Go to **about:debugging**
-![Step 1](/instructions/step1.png)
-2. Select **This Firefox** on the left
-![Step 2](/instructions/step2.png)
-3. Under **Temporary Extensions** select **Load Temporary Add-on**
-![Step 3](/instructions/step3.png)
-4. Select your **.zip** file and click **Open**
-![Step 4](/instructions/step4.png)
 
 # AUTHOR:
 Original Chrome Extension: Aman Bhatt [ https://github.com/bhattcodes ] \
