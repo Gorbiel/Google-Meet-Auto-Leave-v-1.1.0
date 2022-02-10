@@ -1,14 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Google Meet Manager",
-    "description": "Google Meet Manager: on time, number of members, minutes",
+    "description": "Google Meet Manager - leave automatically based on time, number of members, minutes",
     "version": "1.2.0",
-	"browser_specific_settings": {
-		"gecko": {
-		  "id": "addon@Gorbiel",
-		  "strict_min_version": "42.0"
-		}
-	},
     "author": "Gorbiel",
     "icons": {
         "512": "images/editexiticon1.png"
