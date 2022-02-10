@@ -20,7 +20,7 @@ Visit "https://meet.google.com/" (Any google meet) and click on the Extension bu
 
 # AUTHOR:
 Original Chrome Extension: Aman Bhatt [ https://github.com/bhattcodes ] \
-Some Fixes: ajaayc [ https://github.com/ajaayc ] \
+Fixes: ajaayc [ https://github.com/ajaayc ] \
 Firefox port: me [ https://github.com/Gorbiel ]
 
 # LICENSE: 
