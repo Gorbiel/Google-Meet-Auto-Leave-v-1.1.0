@@ -67,9 +67,12 @@ function timefunction() {
     }
 }
 function membersfunction() {
-    // console.log("member fxn", obj.value);
+    console.log("member fxn", obj.value);
     console.log("checking members");
-    if (document.querySelector("div.uGOf1d").innerText < obj.value) {
+	console.log(document.querySelector(".uGOf1d").innerText);
+	var member_number = document.querySelector(".uGOf1d").innerText;
+	var members_int = parseInt(member_number);
+    if (members_int < obj.value) {
 	endCall();
     }
     else {
