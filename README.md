@@ -35,3 +35,11 @@ Firefox port and fixes: me [ https://github.com/Gorbiel ]
 
 # LICENSE: 
 This project is licensed under the [![MIT License](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php) - see the [LICENSE] file for details
+
+## To do:
+ - [ ] New User Interface
+ - [ ] Push-to-talk function
+ - [ ] Auto mute and camera disabling
+ - [ ] Settings Panel
+ - [ ] Auto-config
+ - [ ] Auto-join
