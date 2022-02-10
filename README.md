@@ -30,8 +30,8 @@ Visit "https://meet.google.com/" (Any google meet) and click on the Extension bu
 
 # AUTHOR:
 Original Chrome Extension: Aman Bhatt [ https://github.com/bhattcodes ] \
-Some Fixes: ajaayc [ https://github.com/ajaayc ] \
-Firefox port: me [ https://github.com/Gorbiel ]
+Fixes: ajaayc [ https://github.com/ajaayc ] \
+Firefox port and fixes: me [ https://github.com/Gorbiel ]
 
 # LICENSE: 
 This project is licensed under the [![MIT License](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php) - see the [LICENSE] file for details
