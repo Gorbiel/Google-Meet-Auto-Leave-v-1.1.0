@@ -41,5 +41,6 @@ This project is licensed under the [![MIT License](https://badges.frapsoft.com/o
  - [ ] Push-to-talk function
  - [ ] Auto mute and camera disabling
  - [ ] Settings Panel
+ - [ ] Light and Dark Mode Switch
  - [ ] Auto-config
  - [ ] Auto-join
