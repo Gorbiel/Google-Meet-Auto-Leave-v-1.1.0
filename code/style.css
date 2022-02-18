@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap');
+
+body{
+    margin: 0px 0px;
+}
+.container{
+    position: relative;
+    width:250px;
+    height:200px;
+	background-color: #444444;
+}
+.tabcontent {
+  display: none;
+}
+.sidebar{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 200px;
+    width: 50px;
+	background-color: #303030;
+	overflow: hidden;
+}
+.sidebar button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sidebar button:hover {
+  opacity: 0.5;
+}
+.sidebar button.active {
+  background-color: #444444;
+}
+.sidebarLogoIcon{
+	position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url(images/logoBW-40px.png);
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+}
+.sidebarExitIcon{
+	position: absolute;
+    top: 105px;
+    left: 5px;
+    background-image: url(images/exit-40px.png);
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+}
+.sidebarSettingsIcon{
+	position: absolute;
+    top: 155px;
+    left: 5px;
+    background-image: url(images/settings-40px.png);
+    background-size: contain;
+    height: 40px;
+    width: 40px;
+}
+.heading{
+    position: absolute;
+    top: 10px;
+    left: 65px;
+    font-size: 15px;
+    font-family: 'Source Code Pro', monospace;
+	color: #b3b3b3;
+}
+.timeicon{
+    position: absolute;
+    top: 45px;
+    left: 75px;
+    background-image: url(images/clock-40px.png);
+    background-size: cover;
+    height:40px;
+    width: 40px;
+}
+.timeicon:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+.membericon{
+    position: absolute;
+    top: 45px;
+    left: 130px;
+    background-image: url(images/members-40px.png);
+    background-size: cover;
+    height:40px;
+    width: 40px;
+}
+.membericon:hover{
+    opacity: 0.5;
+	cursor: pointer;
+}
+.minutesicon{
+    position: absolute;
+    top: 45px;
+    left: 190px;
+    background-image: url(images/stopwatch-40px.png);
+    background-size: cover;
+    height:40px;
+    width: 40px;
+}
+.minutesicon:hover{
+    opacity: 0.5;
+	cursor: pointer;
+}
+.enter{
+    position:absolute;
+    top: 102px;
+    left:172px;
+    font-family: 'Source Code Pro', monospace;
+    color: #b3b3b3
+}
+.confirmIcon{
+    position: absolute;
+    top: 155px;
+    left: 157px;
+    background-image: url(images/confirm-32px.png);
+    background-size: cover;
+    height:32px;
+    width: 32px;
+
+}
+.confirmIcon:hover{
+    opacity: 0.5;
+	cursor: pointer;
+}
+.CancelIcon{
+    position: absolute;
+    top: 155px;
+    left: 196px;
+    background-image: url(images/cancel-32px.png);
+    background-size: cover;
+    height:32px;
+    width: 32px;
+
+}
+.CancelIcon:hover{
+    opacity: 0.5;
+	cursor: pointer;
+}
+.inputvalue{
+    position: absolute;
+    top:125px;
+    left: 125px;
+}
+.inputvalue:hover{
+	cursor: text;
+}
+.hourglassicon{
+    position: absolute;
+    top: 130px;
+    left: 65px;
+    background-image: url(images/animated.gif);
+    background-size: contain;
+    height:48px;
+    width: 48px;
+    visibility: hidden;
+}

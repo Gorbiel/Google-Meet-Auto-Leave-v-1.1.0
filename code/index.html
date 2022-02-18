@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Google Meet Manager v1.2.1</title>
+	</head>
+
+	<body>
+		<div class="container">
+			
+			<script src="tabs.js"></script>
+			
+			<div class="sidebar">
+				<button class="tablinks" onClick="openTab(event, 'main')">
+					<div class="sidebarLogoIcon"></div>
+				</button>
+				<button class="tablinks" onClick="openTab(event, 'exit')">
+					<div class="sidebarExitIcon"></div>
+				</button>
+				<button class="tablinks" onClick="openTab(event, 'options')">
+					<div class="sidebarSettingsIcon"></div>
+				</button>
+			</div>
+			
+			<div id="exit" class="tabcontent">
+				<div class="heading">Auto Exit based on:</div>
+				<div class="timeicon"></div>
+				<div class="membericon"></div>
+				<div class="minutesicon"></div>
+				<div class="enter">ENTER:</div>
+				<input type="time" class="inputvalue">
+				<div class="hourglassicon"></div>
+				<div class="confirmIcon"></div>
+				<div class="CancelIcon"></div>
+				<script src="vmaster.js"></script>
+			</div>
+			
+			<div id="options" class="tabcontent">
+				<div class="heading">Settings</div>
+			</div>
+			
+			<div id="main" class="tabcontent">
+				<div class="heading">Logo page</div>
+			</div>
+			
+		</div>
+	</body>
+
+</html>

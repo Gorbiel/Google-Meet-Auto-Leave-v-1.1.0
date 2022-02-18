@@ -1,0 +1,30 @@
+{
+    "manifest_version": 2,
+    "name": "Google Meet Manager",
+    "description": "Google Meet Manager: on time, number of members, minutes",
+    "version": "1.2.1",
+    "author": "Gorbiel",
+    "icons": {
+        "512": "images/logo-512px.png"
+    },
+    "browser_action": {
+        "default_icon": "images/logo-32px.png",
+        "default_popup": "index.html",
+        "default_title": "Google Meet Manager"
+    },
+    "permissions": [
+        "http://meet.google.com/*",
+        "https://meet.google.com/*"
+    ],
+    "content_scripts": [
+        {
+            "js": [
+                "background.js"
+            ],
+            "matches": [
+                "http://meet.google.com/*",
+                "https://meet.google.com/*"
+            ]
+        }
+    ]
+}
